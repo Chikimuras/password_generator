@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic" rel="stylesheet" />
+    <title>Password générator</title>
+</head>
+<body>
+    <div class="main_wrapper">
+        <div class="alert_box" id="alert"></div>
+        <div class="container">
+            <h1>Générateur de mot de passe</h1>
+            <div class="nbr_char">
+                <label for="nbr">Combien de charactère doit contenir votre mot de passe ?</label>
+                <input type="number" name="nbr" min="1" id="nbr">
+            </div>
+            <div class="password_options">
+                <label for="numbers">Inclure des chiffre :</label>
+                <input type="checkbox" name="numbers" id="numbers">
+                <label for="symbols">Inclure des symboles :</label>
+                <input type="checkbox" name="symbols" id="symbols">
+            </div>
+            <a class="btn" id="generate_button">Générer un mode de passe</a>
+            <input type="text" name="password" id="password">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

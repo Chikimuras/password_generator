@@ -1,0 +1,75 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+input{
+    height: 1.5em;
+    margin: 5px;
+}
+body{
+    height: 100vh;
+    color: #777;
+    font-size: 1em;
+    line-height: 1.45em;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    font-size: 2em;
+    margin-bottom: .5em;
+    color: #121212;
+}
+.main_wrapper{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    padding: 1.65em;
+    border: solid 3px #121212;
+    text-align: center;
+}
+.container .btn{
+    display: block;
+    width: fit-content;
+    padding: .8em 1.25em;
+    margin: 0 auto 1.2em;
+    color: #fff;
+    background: #121212;
+}
+.nbr_char{
+    margin: .7em 0;
+}
+.nbr_char input{
+    width: 4.25em;
+}
+.alert_box{
+    background: #ff9191;
+    color: #ff0000;
+    transition: opacity 1s;
+    opacity: 0;
+    height: 25px;
+    margin-bottom: 12px;
+    padding: 5px 15px;
+}
+.alert_box.on{
+    opacity: 1;
+}
+.password_options{
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    margin-left: 20px;
+}
+#password{
+    text-align: center;
+    font-size: 1.55em;
+    height: 2em;
+}
